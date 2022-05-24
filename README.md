@@ -2,7 +2,7 @@
 
 > A [base16](https://github.com/chriskempson/base16) compatible styling for [Cider](https://cider.sh).
 
-<p align="center"><img src="https://i.imgur.com/N43PzRk.png"></p>
+<p align="center"><img width=600 src="https://i.imgur.com/N43PzRk.png"></p>
 
 The color definition of this theme is contained in the [`colors.less`](./colors.less) file.
 
