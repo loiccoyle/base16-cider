@@ -1,0 +1,81 @@
+//Default style at:
+//https://github.com/ciderapp/Cider/blob/main/src/renderer/style.less
+
+@import "colors.less";
+
+@background: @base00;
+@text: @base05;
+
+:root {
+  --keyColor: @base0B;
+  --keyColor-rgb: %("%a, %a, %a", red(@base0B), green(@base0B), blue(@base0B));
+  --keyColor-disabled: fade(@base0B, 25%);
+  --keyColor-pressed: @base0C;
+  --keyColor-pressed-rgb: %(
+    "%a, %a, %a",
+    red(@base0C),
+    green(@base0C),
+    blue(@base0C)
+  );
+  --keyColor-primary: @base0B;
+  --textColor: @text;
+  --hover: @base01;
+  --selected: @base02;
+  --selected-click: @base03;
+}
+
+#app {
+  --color1: @background;
+  --color2: @background;
+  --keyColor: @base0B;
+  background: var(--color1);
+  color: var(--textColor);
+  &.simplebg {
+    background: @background;
+  }
+}
+
+input[type="text"],
+input[type="number"] {
+  background: @base00;
+  color: @base07;
+}
+
+.search-input {
+  background: fade(@base00, 25%);
+  color: @base07;
+}
+
+.app-sidebar-item {
+  color: @text;
+}
+
+.app-sidebar-item:hover {
+  background: var(--hover);
+}
+
+.app-sidebar-item:active {
+  background: var(--selected);
+}
+
+.app-sidebar-item.active {
+  background: var(--selected);
+}
+
+.sidebar-icon > svg {
+  color: @base0C;
+}
+
+.sidebar-icon > .svg-icon {
+  --color: @base0C;
+}
+
+.usermenu-item-icon > svg {
+  color: @base0C;
+}
+
+.md-btn.md-btn-primary {
+  background: fade(@base0B, 60%);
+  border: 1px solid fade(@base0B, 25%);
+  border-top: 1px solid fade(@base0B, 50%);
+}
