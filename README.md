@@ -19,12 +19,12 @@ This theme comes with the [`gruvbox-dark-hard`](https://github.com/dawikur/base1
 3. Look for `Base16 Theme for Cider` and click on it.
 4. Click on the `Install` button and select the theme (if you have to). The theme should be applied.
 
-This will download the repo to `~/.config/Cider/Themes/`
+This will download the repo to `~/.config/Cider/Themes/gh_495921395/`
 
 ## Intergrate with your base16 builder
 
 The intergration with your prefered base16 builder depends on which builder you use, but
-your builder should relace the `colors.less` file with `base16-styles`'s `less` template completed with your chosen theme.
+your builder should relace the `~/.config/Cider/Themes/gh_495921395/colors.less` file with [`base16-styles`](https://github.com/samme/base16-styles)'s `less` template completed with your chosen theme.
 
 I use the [`flavours`](https://github.com/Misterio77/flavours) builder with the following config snippet:
 
