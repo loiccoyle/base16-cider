@@ -30,7 +30,7 @@ I use the [`flavours`](https://github.com/Misterio77/flavours) builder with the 
 
 ```toml
 [[items]]
-file='$XDG_CONFIG_HOME/Cider/Themes/base16/colors.less'
+file='$XDG_CONFIG_HOME/Cider/Themes/gh_495921395/colors.less'
 template='styles'
 subtemplate='less'
 rewrite=true
