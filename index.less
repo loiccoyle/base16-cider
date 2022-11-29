@@ -50,6 +50,14 @@ input[type="number"] {
   color: @text;
 }
 
+.app-sidebar-item > ._svg-icon {
+  background: @base0B;
+}
+
+.app-sidebar-item.active > ._svg-icon {
+  background: @base0C;
+}
+
 .app-sidebar-item:hover {
   background: var(--hover);
 }
@@ -75,7 +83,7 @@ input[type="number"] {
 }
 
 .md-btn.md-btn-primary {
-  background: fade(@base0B, 60%);
-  border: 1px solid fade(@base0B, 25%);
-  border-top: 1px solid fade(@base0B, 50%);
+  background: @base0C;
+  border: 1px solid fade(@base0C, 25%);
+  border-top: 1px solid fade(@base0C, 50%);
 }
